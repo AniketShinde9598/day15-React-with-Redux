@@ -23,9 +23,14 @@ function DepositAccount() {
 
   return (
     <div>
-      <h1>Account: CDAC</h1>
+      <h1>Account: Aniket Shinde</h1>
       <h1>Balance: {account.balance}</h1>
-      <input type="button" value="Deposit" onClick={depositHandler} />
+      <input
+        className="btn btn-success"
+        type="button"
+        value="Deposit"
+        onClick={depositHandler}
+      />
     </div>
   );
 }
@@ -41,9 +46,14 @@ function WithdrawlAccount() {
 
   return (
     <div>
-      <h1>Account: CDAC</h1>
+      <h1>Account: Aniket Shinde</h1>
       <h1>Balance: {account.balance}</h1>
-      <input type="button" value="Withdraw" onClick={withdrawHandler} />
+      <input
+        className="btn btn-primary"
+        type="button"
+        value="Withdraw"
+        onClick={withdrawHandler}
+      />
     </div>
   );
 }

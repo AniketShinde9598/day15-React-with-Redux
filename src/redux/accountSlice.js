@@ -5,8 +5,8 @@ export const accountSlice = createSlice({
 
   // GLOBAL DATA MEMBER
   initialState: {
-    balance: 1000,
-    holder: "cdac",
+    balance: 2100,
+    holder: "Aniket Shinde",
     acnumber: "MUM00001",
   },
 
